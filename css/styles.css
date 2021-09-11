@@ -1,0 +1,100 @@
+body {
+    font-size: 16px;
+    color: white;
+    background-color:#61122f;
+    font-family: 'Abril+Fatface', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { /* Food, LLC*/
+    font-family: 'lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+}
+    
+   
+
+
+.navbar-brand p {
+    color: white;
+    font-size: 10px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: #8243d6;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+    margin-bottom: 30px;
+}
+
+.row {
+    
+    position: relative;
+    float: left;
+}
+
+.row > div > article {
+    background-color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 12px;
+    color: black;
+}
+/* End Section */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */{
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      /* Home Page */
+  
+    height: 432px;
+  }
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width
+    }
